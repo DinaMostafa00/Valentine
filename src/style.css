@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+@theme {
+--font-sans: "Luckiest Guy", cursive;
+--color-main-red: #6b1115;
+--color-pinkish: #EFD6DA;
+}
+
+@font-face {
+  font-family: "Luckiest Guy", cursive;
+  src: url("https://fonts.gstatic.com/s/luckiestguy/v24/_gP_1VJqCYyM5jW9r2iYw.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
